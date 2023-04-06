@@ -1,7 +1,7 @@
-print("hola soy Nikulias")
+print("hola soy Nicolas")
 
 nombre = "Nikulias"
-name = "Mati perkin"
+name = "Matias"
 
 
 print(nombre)
@@ -12,7 +12,7 @@ edad = 18
 
 print("mi edad es de",edad)
 
-print("hola mi nombre es" " " + nombre + " "  "y tengo" + str(edad) +  "años de weon")
+print("hola mi nombre es" " " + nombre + " "  "y tengo" + str(edad) +  "años de edad")
 
 
 nombre = "Yessi"
