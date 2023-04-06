@@ -19,8 +19,3 @@ nombre = "Yessi"
 print ("Hola mi nuevo nombre es", nombre)
 nombre = input("¿Cual es tu nombre?\n")
 print("tu nombre es:",nombre) 
-
-print ("hola mi nombre nuevo es", nombre)
-
-
-kkk
