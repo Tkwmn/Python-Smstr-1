@@ -1,17 +1,21 @@
 # Datos de un tipo numerico
 
-edad = 29
-estatura = 1.71
-peso = 70
-complejo = 1+4j
+edad = 29 #entero
+estatura = 1.71 #real
+peso = 70 #real
+complejo = 1+4j #se pone j para los complejos
 print("######## 01- datos numericos ########");
-print(f"mi estatura es de {estatura} y mi peso es de {peso}")
 print("impresion de un numero complejo",complejo,'\n')
+print(f"mi estatura es de {estatura}")
 
-# Operaciones artimetica basica
+# Operaciones artimetica basica para sacar el imc
 
 imc = peso/estatura**2
 print("Mi IMC es de:",imc)
+
+#el codigo {:..2f} es para aproximar y va entre comillas y .format es para 
+
+print("mi IMC es de: {:..2f}".format(imc), '\n')
 
 # Datos de tipo cadena de caracteres
 
@@ -20,6 +24,7 @@ carrera = 'Ingenieria Civil en Informatica'
 print("######### 02-STRINGS ########")
 print('La asignatura de',asignatura,'corresponde a la carrera de',carrera)
 print("la cantidad de caracteres de la palabra", asignatura)
+
 
 # Valores booleanos
 
