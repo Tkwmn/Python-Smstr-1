@@ -1,9 +1,12 @@
 # Datos de un tipo numerico
 
+edad = 29
 estatura = 1.71
 peso = 70
 complejo = 1+4j
-print("impresion del numero complejo",complejo)
+print("######## 01- datos numericos ########");
+print(f"mi estatura es de {estatura} y mi peso es de {peso}")
+print("impresion de un numero complejo",complejo,'\n')
 
 # Operaciones artimetica basica
 
@@ -14,7 +17,9 @@ print("Mi IMC es de:",imc)
 
 asignatura = 'programación'
 carrera = 'Ingenieria Civil en Informatica'
+print("######### 02-STRINGS ########")
 print('La asignatura de',asignatura,'corresponde a la carrera de',carrera)
+print("la cantidad de caracteres de la palabra", asignatura)
 
 # Valores booleanos
 
@@ -27,7 +32,14 @@ interruptor= True
 print(type(ampolleta))
 
 # Datos tipo array (objetos de tipo colección)
-estudiantes = ['Matias', 'Marco', 'Cristobal', 'Sebastian']
+estudiantes = ['Nicolas', 'Israel', 'Melany', 'Darly']
 num = [1,2,3,4,5,6]
-print = (estudiantes)
-print = (num)
+lenguaje = ("Python")
+
+
+#¿Se puede realizar una lista de datos compuestos?
+
+print(estudiantes)
+
+
+

@@ -20,5 +20,5 @@ print ("Hola mi nuevo nombre es", nombre)
 nombre = input("¿Cual es tu nombre?\n")
 print("tu nombre es:",nombre) 
 
-
-33
+#¿VARIABLES EN UNA SOLA LINEA?(no es recomendable, solo en cierttas situaciones)
+ 
