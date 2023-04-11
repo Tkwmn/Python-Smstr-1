@@ -38,7 +38,7 @@ print("su nombre es:",nombre1)
 #el \n sirve para bajar una linea
 #el identificador de una variable es un nombre
 
-ciudad, region, pais, year = "puerto montt", "los lagos", "chile", 2023
+ciudad, region, pais, year = "purranque", "los lagos", "chile", 2023
 
 #se puede asignar varias variables a la vez, separandolas por comas
 
