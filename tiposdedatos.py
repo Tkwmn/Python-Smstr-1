@@ -78,7 +78,7 @@ data_asig = [10023, "programacion", 1, True]
 #¿que hace este codigo?
 
 cod, ramo, semestre, estado = data_asig
-print(ramo)
+print(ramo, "\n")
 
 
 #que hacen estas funciones?
@@ -87,3 +87,11 @@ print(list("python"))
 print(list(range(10)))
 print("\n")
 
+#TUPLAS, las tuplas se hacen con parentesis y no son mutables
+
+
+grupo1 = ("Alvaro", "Liliana", "Felipe", 200, 100, "Alvaro")
+print("##### TUPLAS #####")
+print(type(grupo1),"\n")
+
+#accediendo al primer alemento de la tupla
