@@ -4,7 +4,6 @@ edad = 29 #entero
 estatura = 1.71 #real
 peso = 70 #real
 complejo = 1+4j #se pone j para los complejos
-print("######## 01- datos numericos ########");
 print("impresion de un numero complejo",complejo,'\n')
 print(f"mi estatura es de {estatura}")
 
@@ -15,7 +14,7 @@ print("Mi IMC es de:",imc)
 
 #el codigo {:..2f} es para aproximar y va entre comillas y .format es para 
 
-print("mi IMC es de: {:..2f}".format(imc), '\n')
+print("mi IMC es de: {:.2f}".format(imc), '\n')
 
 # Datos de tipo cadena de caracteres
 
@@ -37,9 +36,9 @@ interruptor= True
 print(type(ampolleta))
 
 # Datos tipo array (objetos de tipo colección)
-estudiantes = ['Nicolas', 'Israel', 'Melany', 'Darly']
-num = [1,2,3,4,5,6]
-lenguaje = ("Python")
+estudiantes =['Nicolas', 'Israel', 'Melany', 'Darly']
+num =[1,2,3,4,5,6]
+lenguaje =("Python")
 data = ["osorno", {"UV": "nivel bajo", "Temp °C":15}, (-40.5725, -70.432)]
 print(data)
 print(len(data)) #Con len() podemos ver cuantos tipos de elementos, hay , deberian ser 3
@@ -56,8 +55,35 @@ print(estudiantes.count("Israel"))
 #y array es mas limitado a un tipo de dato
 
 nueva_lista = list()
+print("esta es una lista vacia", nueva_lista)
+
+#los corchetes [] se utilizan para crear una lista 
+#que es una coleccion ordenada, los elementos de la lista estan separados por comas
+
+#como acceder a un elemento especifico en la lista?
+
+print(estudiantes[0])
+print(estudiantes[1])
+
+#reasignar el valor de una posición 
+
+estudiantes[0] = "gabriela"
+
+print(estudiantes[0])
+
+#inicializando otra lista de datos mixtos
+
+data_asig = [10023, "programacion", 1, True]
+
+#¿que hace este codigo?
+
+cod, ramo, semestre, estado = data_asig
+print(ramo)
 
 
+#que hacen estas funciones?
 
-
+print(list("python"))
+print(list(range(10)))
+print("\n")
 
