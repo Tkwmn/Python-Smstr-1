@@ -40,11 +40,24 @@ print(type(ampolleta))
 estudiantes = ['Nicolas', 'Israel', 'Melany', 'Darly']
 num = [1,2,3,4,5,6]
 lenguaje = ("Python")
+data = ["osorno", {"UV": "nivel bajo", "Temp °C":15}, (-40.5725, -70.432)]
+print(data)
+print(len(data)) #Con len() podemos ver cuantos tipos de elementos, hay , deberian ser 3
+print("lista de cadena de caracteres:", estudiantes)
+print("lista de numeros:", num)
+print("lista de elementos:", lenguaje)
+
+#con .count() podemos bucar un elemento de la lista
+#que es una colewccion ordenada, los elementos de la lista y nos muestra donde está
+
+print(estudiantes.count("Israel"))
+
+#datos tipo array (objetos de tipo coleccion) o arreglos. con erray se gasta menos memoria que con list() pero lis() es mas dinamico
+#y array es mas limitado a un tipo de dato
+
+nueva_lista = list()
 
 
-#¿Se puede realizar una lista de datos compuestos?
-
-print(estudiantes)
 
 
 
