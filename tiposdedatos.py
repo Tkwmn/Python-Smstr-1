@@ -95,3 +95,21 @@ print("##### TUPLAS #####")
 print(type(grupo1),"\n")
 
 #accediendo al primer alemento de la tupla
+
+print(grupo1[0])
+
+#consultando el elemento "alvaro" cuantas veces se encuentra en la tupla
+
+print("el elemento se repite:",grupo1.index("alvaro"), "\n")
+
+#reasignar el primer elemento de la tupla
+#grupo1[0]="costanza"
+#NO ES MUTABLE 
+
+#se pueden sumar las tuplas?
+grupo2 = ("costanza", "Aron", 150, 250)
+grupos = grupo1 + grupo2
+print(grupos,"\n")
+
+
+
