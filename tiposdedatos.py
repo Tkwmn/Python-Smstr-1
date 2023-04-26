@@ -2,7 +2,7 @@
 
 edad = 29 #entero
 estatura = 1.71 #real
-peso = 70 #real
+peso = 70.5 #real
 complejo = 1+4j #se pone j para los complejos
 print("impresion de un numero complejo",complejo,'\n')
 print(f"mi estatura es de {estatura}")
@@ -10,11 +10,19 @@ print(f"mi estatura es de {estatura}")
 # Operaciones artimetica basica para sacar el imc
 
 imc = peso/estatura**2
+
+#transformando Real a Entero
+print(peso)
+print("transformando un valor Real a Entero:",int(peso))
+
+print(edad)
+print("transformando Entero a Real:",float(edad))
 print("Mi IMC es de:",imc)
 
 #el codigo {:..2f} es para aproximar y va entre comillas y .format es para 
 
 print("mi IMC es de: {:.2f}".format(imc), '\n')
+
 
 # Datos de tipo cadena de caracteres
 
