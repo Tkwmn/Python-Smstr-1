@@ -30,7 +30,7 @@ asignatura = 'programación'
 carrera = 'Ingenieria Civil en Informatica'
 print("######### 02-STRINGS ########")
 print('La asignatura de',asignatura,'corresponde a la carrera de',carrera)
-print("la cantidad de caracteres de la palabra", asignatura)
+print("la cantidad de",len(asignatura), "corresponde a la carrera de ",len(carrera))
 
 
 # Valores booleanos
@@ -41,7 +41,14 @@ interruptor= True
 
 # Con type sabemos el tipo de datos  que estamos tratamdo
 
-print(type(ampolleta))
+print(type(ampolleta),"\n")
+ampolleta = "soy una ampolleta"
+print(type(ampolleta),"\n")
+
+#podemos transformar cualquier valor a un booleano (al igual que un string)
+print(bool(0)) #0 significa apagado por lo que es false 
+print(bool("")) #vacío por lo que dará false
+print(bool(none)) #ninguno por lo que dará false
 
 # Datos tipo array (objetos de tipo colección)
 estudiantes =['Nicolas', 'Israel', 'Melany', 'Darly']
@@ -57,7 +64,7 @@ print("lista de elementos:", lenguaje)
 #con .count() podemos bucar un elemento de la lista
 #que es una colewccion ordenada, los elementos de la lista y nos muestra donde está
 
-print(estudiantes.count("Israel"))
+print(estudiantes.counint("Israel"))
 
 #datos tipo array (objetos de tipo coleccion) o arreglos. con erray se gasta menos memoria que con list() pero lis() es mas dinamico
 #y array es mas limitado a un tipo de dato
@@ -73,7 +80,7 @@ print("esta es una lista vacia", nueva_lista)
 print(estudiantes[0])
 print(estudiantes[1])
 
-#reasignar el valor de una posición 
+#reasignar el valor de funa posición 
 
 estudiantes[0] = "gabriela"
 
@@ -89,7 +96,7 @@ cod, ramo, semestre, estado = data_asig
 print(ramo, "\n")
 
 
-#que hacen estas funciones?
+#que hacen estas funcionies?
 
 print(list("python"))
 print(list(range(10)))
@@ -105,7 +112,7 @@ print(type(grupo1),"\n")
 #accediendo al primer alemento de la tupla
 
 print(grupo1[0])
-
+c
 #consultando el elemento "alvaro" cuantas veces se encuentra en la tupla
 
 print("el elemento se repite:",grupo1.index("alvaro"), "\n")
@@ -118,6 +125,5 @@ print("el elemento se repite:",grupo1.index("alvaro"), "\n")
 grupo2 = ("costanza", "Aron", 150, 250)
 grupos = grupo1 + grupo2
 print(grupos,"\n")
-
 
 
