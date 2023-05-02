@@ -49,6 +49,8 @@ print(type(ampolleta),"\n")
 print(bool(0)) #0 significa apagado por lo que es false 
 print(bool("")) #vacío por lo que dará false
 print(bool(none)) #ninguno por lo que dará false
+print(bool("False")) #es una cadena de texto por lo que es True
+print(bool(1)) #1 es encendido por lo que siemore va a dar true
 
 # Datos tipo array (objetos de tipo colección)
 estudiantes =['Nicolas', 'Israel', 'Melany', 'Darly']
@@ -61,6 +63,9 @@ print("lista de cadena de caracteres:", estudiantes)
 print("lista de numeros:", num)
 print("lista de elementos:", lenguaje)
 
+listamixta = [100, "Felipe", False]
+print(leb(listamixta)) #Para ver cuantos elementos hay en una lista 
+
 #con .count() podemos bucar un elemento de la lista
 #que es una colewccion ordenada, los elementos de la lista y nos muestra donde está
 
@@ -69,8 +74,10 @@ print(estudiantes.counint("Israel"))
 #datos tipo array (objetos de tipo coleccion) o arreglos. con erray se gasta menos memoria que con list() pero lis() es mas dinamico
 #y array es mas limitado a un tipo de dato
 
-nueva_lista = list()
-print("esta es una lista vacia", nueva_lista)
+nueva_lista = list(11,13,14,12)
+nueva_listita = [10,11,12]
+print("esta es una lista vacia", nueva_lista,"\n")
+
 
 #los corchetes [] se utilizan para crear una lista 
 #que es una coleccion ordenada, los elementos de la lista estan separados por comas
@@ -84,7 +91,7 @@ print(estudiantes[1])
 
 estudiantes[0] = "gabriela"
 
-print(estudiantes[0])
+print(estudiantes[0],"\n")
 
 #inicializando otra lista de datos mixtos
 
