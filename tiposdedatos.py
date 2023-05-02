@@ -48,7 +48,7 @@ print(type(ampolleta),"\n")
 #podemos transformar cualquier valor a un booleano (al igual que un string)
 print(bool(0)) #0 significa apagado por lo que es false 
 print(bool("")) #vacío por lo que dará false
-print(bool(none)) #ninguno por lo que dará false
+print(bool(None)) #ninguno por lo que dará false
 print(bool("False")) #es una cadena de texto por lo que es True
 print(bool(1)) #1 es encendido por lo que siemore va a dar true
 
