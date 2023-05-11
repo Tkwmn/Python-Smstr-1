@@ -1,14 +1,17 @@
 print("Ingrese datos de 3 pacientes","\n")
 
-#p----------------Paciente 1---------------#
+#----------------Paciente 1---------------#
 
 print("PACIETE 1°","\n")
 p1 = input("Ingrese el nombre del  paciente: ")
 peso_p1 = float(input("Indique el peso del paciente: "))
+
+
 est_p1 = float(input("Especifique estatura del paciente: "))
 ed_p1 = int(input("¿Cuál es la edad del paciente?: "))
 
 while ed_p1 < 1 :
+    print("Valor invalido")
     ed_p1 = int(input("¿Cuál es la edad del paciente?: "))
 else:
     print("Valor valido","\n")
