@@ -64,7 +64,7 @@ print("lista de numeros:", num)
 print("lista de elementos:", lenguaje)
 
 listamixta = [100, "Felipe", False]
-print(leb(listamixta)) #Para ver cuantos elementos hay en una lista 
+print(len(listamixta)) #Para ver cuantos elementos hay en una lista 
 
 #con .count() podemos bucar un elemento de la lista
 #que es una colewccion ordenada, los elementos de la lista y nos muestra donde está
@@ -119,7 +119,6 @@ print(type(grupo1),"\n")
 #accediendo al primer alemento de la tupla
 
 print(grupo1[0])
-c
 #consultando el elemento "alvaro" cuantas veces se encuentra en la tupla
 
 print("el elemento se repite:",grupo1.index("alvaro"), "\n")
