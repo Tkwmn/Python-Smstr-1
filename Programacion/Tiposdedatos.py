@@ -69,7 +69,7 @@ print(len(listamixta)) #Para ver cuantos elementos hay en una lista
 #con .count() podemos bucar un elemento de la lista
 #que es una colewccion ordenada, los elementos de la lista y nos muestra donde está
 
-print(estudiantes.counint("Israel"))
+print(estudiantes.count(int("Israel")))
 
 #datos tipo array (objetos de tipo coleccion) o arreglos. con erray se gasta menos memoria que con list() pero lis() es mas dinamico
 #y array es mas limitado a un tipo de dato
@@ -87,7 +87,7 @@ print("esta es una lista vacia", nueva_lista,"\n")
 print(estudiantes[0])
 print(estudiantes[1])
 
-#reasignar el valor de funa posición 
+#reasignar el valor de una posición 
 
 estudiantes[0] = "gabriela"
 

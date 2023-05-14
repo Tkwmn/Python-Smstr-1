@@ -1,8 +1,8 @@
-mes = input("ingrese un mes: ")
+mes = str(input("ingrese un mes: ")).lower()
 
 while mes != "enero" and "febrero" and "marzo" and "abril" and "mayo" and "junio" and "julio" and "agosto" and "septiembre" and "otubre" and "noviembre" and "diciembre":
     print("valor no coincide")
-    mes = input("ingrese un mes: ")
+    mes = str(input("ingrese un mes: ")).lower()
 
 if mes == "diciembre" or mes == "enero" or mes == "febrero": 
     print("el mes de ",mes," esta en verano")
