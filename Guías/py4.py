@@ -1,20 +1,10 @@
-from math import sqrt
+nombre1 = str(input("Ingrese su nombre: "))
+nombre2 = str(input("Ingrese otro nombre: "))
 
-a = float(input("cuanto mide el primer lado del triangulo?: "))
-b = float(input("el segundo lado cuanto mide?: "))
-c = float(input("cuanto mide el ulitmo lado?: "))
-
-if a == b == c:
-    print("el triangulo es equilatero")
+if nombre1[0] == nombre2[0]:
+    print("los mombres inician con lo misma letra")
 else:
-    if a != b != c:
-        print("el triangulo es escaleno")
+    if nombre1[-1] == nombre2[-1]:
+     print("los nombres finalinzan con la misma letra")
     else:
-        if a or b == c:
-            print("el triangulo es isosceles")
-
-perim = (a + b + c)/2
-
-area = round(sqrt(perim * (perim-a) * (perim-b) * (perim-c)),3)
-
-print("y el area del triagulo es ",area)
+       print("los nombres no inician ni finalizan con la misma letra")
