@@ -1,10 +1,29 @@
-nombre1 = str(input("Ingrese su nombre: "))
-nombre2 = str(input("Ingrese otro nombre: "))
+lab1 = float(input("indique nota del primer laboratorio: "))
 
-if nombre1[0] == nombre2[0]:
-    print("los mombres inician con lo misma letra")
+while lab1 < 1 or lab1 > 7:
+    print("Valor invalido")
+    lab1 = float(input("indique nota del primer laboratorio: "))
+
+lab2 = float(input("indique nota del segundo laboratorio: "))
+
+while lab2 < 1 or lab2 > 7:
+    print("Valor invalido")
+    lab2 = float(input("indique nota del segundo laboratorio: "))
+
+lab3 = float(input("indique nota del tercer laboratorio: "))
+
+while lab3 < 1 or lab3 > 7:
+    print("Valor invalido")
+    lab3 = float(input("indique nota del tercer laboratorio: "))
+
+promedio_pon = round((lab1 * 0.3) + (lab2 * 0.4) + (lab3 * 0.3), 1)
+
+print("el promedio es de ",promedio_pon)
+
+if promedio_pon > 6.0:
+    print("estudiente aprobó con distinción")
 else:
-    if nombre1[-1] == nombre2[-1]:
-     print("los nombres finalinzan con la misma letra")
+    if promedio_pon > 4.0:
+        print("estudiante aprobó")
     else:
-       print("los nombres no inician ni finalizan con la misma letra")
+        print("alumno reprobó")

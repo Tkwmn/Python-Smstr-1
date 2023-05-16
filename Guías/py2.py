@@ -1,18 +1,10 @@
-n1 = int(input("Indique primer numero entero: "))
+letra1 = str(input("Escriba alguna palabra: "))
+letra2 = str(input("Escriba otra palabra: "))
 
-n2 = int(input("Indique segundo numero entero: "))
-
-n3 = int(input("Indique tercer numero entero: "))
-
-if n1 and n2 < n3:
-    print("el numero ",n3," es mayor")
-
-if n1 and n3 < n2:
-    print("el numero ",n2," es mayor")
-
-if n2 and n3 < n1:
-    print("el numero ",n1," es mayor")
-
-if n1 and n2 <= n3:
-    print("Los numeros son iguales, por ende niguno es mayor a otro.")
+if len(letra1) < len(letra2):
+    print(letra1," tiene menos letras")
+    print(letra2," tiene mas letras")
+else:
+    print(letra1," tiene mas letras")
+    print(letra2," tiene menos letras")
     

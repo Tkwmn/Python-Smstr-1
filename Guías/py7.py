@@ -1,8 +1,14 @@
-grupo1 = {"marcos", "gabriela", "benjamin", "matias"}
-grupo2 = {"marcos", "nicolas", "diego", "matias"}
+lista1 =  ["Martín", "Joshua", "Melanie" , "Cata", "Anfrew", "Mary"]
+lista2 = [23, 34, 56, 44, 39]
 
-print(grupo1,"\n")
-print(grupo2,"\n")
 
-print(grupo1.intersection(grupo2))
+suma_lista = (lista1 + lista2)
 
+print(suma_lista)
+
+diccionario = {
+    "Nombres": lista1, 
+    "Edad" : lista2
+}
+
+print(diccionario)

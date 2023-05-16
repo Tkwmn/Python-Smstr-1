@@ -1,10 +1,20 @@
-letra1 = str(input("Escriba alguna palabra: "))
-letra2 = str(input("Escriba otra palabra: "))
+from math import sqrt
 
-if len(letra1) < len(letra2):
-    print(letra1," tiene menos letras")
-    print(letra2," tiene mas letras")
+a = float(input("cuanto mide el primer lado del triangulo?: "))
+b = float(input("el segundo lado cuanto mide?: "))
+c = float(input("cuanto mide el ulitmo lado?: "))
+
+if a == b == c:
+    print("el triangulo es equilatero")
 else:
-    print(letra1," tiene mas letras")
-    print(letra2," tiene menos letras")
-    
+    if a != b != c:
+        print("el triangulo es escaleno")
+    else:
+        if a or b == c:
+            print("el triangulo es isosceles")
+
+perim = (a + b + c)/2
+
+area = round(sqrt(perim * (perim-a) * (perim-b) * (perim-c)),3)
+
+print("y el area del triagulo es ",area)
