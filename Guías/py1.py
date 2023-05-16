@@ -6,13 +6,10 @@ n3 = int(input("Indique tercer numero entero: "))
 
 if n1 and n2 < n3:
     print("el numero ",n3," es mayor")
-
-if n1 and n3 < n2:
+elif n1 and n3 < n2:
     print("el numero ",n2," es mayor")
-
-if n2 and n3 < n1:
+elif n2 and n3 < n1:
     print("el numero ",n1," es mayor")
-
-if n1 and n2 <= n3:
-    print("Los numeros son iguales, por ende niguno es mayor a otro.")
+else:
+     print("Los numeros son iguales, por ende niguno es mayor a otro.")
     

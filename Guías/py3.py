@@ -1,5 +1,3 @@
-from math import sqrt
-
 a = float(input("cuanto mide el primer lado del triangulo?: "))
 b = float(input("el segundo lado cuanto mide?: "))
 c = float(input("cuanto mide el ulitmo lado?: "))
@@ -15,6 +13,6 @@ else:
 
 perim = (a + b + c)/2
 
-area = round(sqrt(perim * (perim-a) * (perim-b) * (perim-c)),3)
+area = round((perim * (perim-a) * (perim-b) * (perim-c))**0.5)
 
 print("y el area del triagulo es ",area)
