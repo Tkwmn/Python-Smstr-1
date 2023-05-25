@@ -11,6 +11,8 @@ for i in range (1,n+1):
         impar+=2
     print(f" = {suma}")
 
+    rnjeng
+
 
 
 
