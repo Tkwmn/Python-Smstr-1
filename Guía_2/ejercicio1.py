@@ -7,7 +7,7 @@ pilares fundamentales se basan en la inclusion, pluralismo, conciencia ambiental
 democratica.''').lower().split()
 
 parrafo = tuple(parrafo)
-print(f'la cantidad de veces que se repite la palabra "Universidad" es: {(parrafo.count("universidad"))}')
+print(f'la cantidad de veces que se repite la palabra "Universidad" es: {(parrafo.count("universidad"))} veces')
 
 
 
