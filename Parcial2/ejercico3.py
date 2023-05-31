@@ -48,7 +48,7 @@ print("\n")
 #C)Elevar a 4 todas las temperaturas dentro de los sets
 
 print("ELEVAR A 4 TODAS LAS TEMPERATUAS DENTRO DE LOS SETS")
-t_mi2 = {9**4,5**4,2**4,7**4,6**4,1**4}
+t_mi2 = {9**4, 5**4, 2**4, 7**4, 6**4, 1**4}
 print('Temperaturas minimas^4: ',t_mi2)
 t_ma2 = {12**4,14**4,11**4,10**4,15**4,9**4}
 print('Temperaturas maximas^4: ',t_ma2)
