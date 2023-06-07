@@ -12,6 +12,7 @@ while True:
         print("INGRESO DE NOMBRES FINALIZADO")
         break   
 
+
 # Luego, crear otra funcion
 # que permita contar las letras, la cual debe recorrer la lista de nombres y cuente
 # la cantidad total de letras de todos los nombres ingresados
