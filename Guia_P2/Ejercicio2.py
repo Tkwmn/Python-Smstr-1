@@ -5,6 +5,9 @@ nombres=[]
 while True:
     n = str(input("Ingrese nombres (Escriba 'Terminar' para terminar): "))
     nn = n.replace(" ","")
+    if nn.isalpha() == False:
+        print('Ingresa un nombre valido')
+        continue
     if nn.lower() != "terminar":
         print(nn)
         nombres.append(nn)
