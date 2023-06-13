@@ -1,16 +1,19 @@
 def comprar():
     costo_total=0
     while True:
-        precio=0
-        print('Ingrese el costo de los productos que quiere comprar (sin puntos ni comas), escriba un 0 para salir')
-        precio=int(input('$'))
-        if precio==0:
-            break
-        elif precio>0:
-            costo_total+=precio
-            print(f'Usted lleva un costo total de: ${costo_total} pesos')
-        else:
-            continue
+        try:
+            precio=0
+            print('Ingrese el costo de los productos que quiere comprar (sin puntos ni comas), escriba un 0 para salir')
+            precio=int(input('$'))
+            if precio==0:
+                break
+            elif precio>0:
+                costo_total+=precio
+                print(f'Usted lleva un costo total de: ${costo_total} pesos')
+            else:
+                continue
+        except ValueError:
+            print("error")
     return costo_total
 
 def montovuelto(total,entregado):
