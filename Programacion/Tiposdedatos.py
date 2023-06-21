@@ -51,6 +51,7 @@ print(bool("")) #vacío por lo que dará false
 print(bool(None)) #ninguno por lo que dará false
 print(bool("False")) #es una cadena de texto por lo que es True
 print(bool(1)) #1 es encendido por lo que siemore va a dar true
+print("\n")
 
 # Datos tipo array (objetos de tipo colección)
 estudiantes =['Nicolas', 'Israel', 'Melany', 'Darly']
@@ -125,6 +126,7 @@ print("el elemento se repite:",grupo1.index("alvaro"), "\n")
 
 #reasignar el primer elemento de la tupla
 #grupo1[0]="costanza"
+#print(grupo1[0])
 #NO ES MUTABLE 
 
 #se pueden sumar las tuplas?
@@ -132,4 +134,74 @@ grupo2 = ("costanza", "Aron", 150, 250)
 grupos = grupo1 + grupo2
 print(grupos,"\n")
 
+#Entonces como no puedo modificar una tupla,¿Que puedo hacer?
+grupo1 = list(grupo1)
 
+print("la tupla ahora es de tipo",type(grupo1),"\n")
+print("\n")
+print(grupo1[1:4])
+
+#SETS o conjuntos
+#Formas de inicializar un Set 
+
+conjunto_vacio = set()
+conjunto_vacio1 = {} #¿diccionario o set?
+print(type(conjunto_vacio)) 
+
+conjunto_colores = set({"azul", "rojo", "verde"})   #utilizar funcion set
+conujunto_animales = {"gato","perro","loro"} #utilzar corchetes
+print(type(conjunto_colores))
+print(type(conujunto_animales)) #es un set por que se añadieron elementos, aunque se haya hecho con llaves
+print("el primer set contiene los colores: ",conjunto_colores)
+print("el segundo set contiene los siguientes animales: ",conujunto_animales)
+
+#print(conjuntos_animales[0]) #accediendo al primer elemento del set(dará error).
+conjunto_colores.add("violeta")
+print("el set de colores se conforma por: ",conjunto_colores)
+conujunto_animales.add("lechuza")
+print("el set de animales esta compuesto por: ",conujunto_animales)
+print("\n")
+
+"""-----Diccionarios-----"""
+
+diccionario1 = dict()
+diccionario2 = {}
+
+print(type(diccionario2))
+
+datos_personales ={
+    "nombre":"melany",
+    "institución":"ulagos",
+    "edad":"18",
+    "asigntauras": {"estructura de datos","programación"}
+    }
+
+print("diccionario inicial: ",datos_personales)
+
+#clave es lo mismo que un campo
+#consulta la cantidad de elementos del diccionario
+
+print(len(datos_personales))
+
+#como acceder a un elemento especifico de un lista?
+print(datos_personales["Institución"])
+
+#actualizar el valor de una clave dentor de un diccionario?
+
+datos_personales["institución"] = "USS"
+
+#agregando un nuevo campo al diccionario
+
+datos_personales["ciudad"] = "osorno"
+print(datos_personales)
+
+#eliminando un campo del dicciinario
+
+del datos_personales["ciudad"]
+print("diccionario con in campo eliminado: ",datos_personales)
+
+hospital = dict(
+    nombre = "hospital san tomas",
+    direccion = "dr. guillermo buhler 1765",
+    ciudad = "osorno"
+    )
