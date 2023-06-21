@@ -19,4 +19,26 @@ def multiplicacion (num1, num2):
     return num1*num2
 
 #multiplicacion
-print(multiplicacion(5,50))
+print(multiplicacion(5,5))
+
+
+#ejemplo
+
+def suma(a, b):
+    return a + b 
+
+def resta(a, b):
+    return a - b 
+
+a = int(input("ingrese un valor: "))
+b= int(input("ingrese otro valor: "))
+
+#llama a la función suma
+resultado = suma(a, b)
+print("la resta es de: ", resultado)
+
+
+#llama a la fución resta
+resultado2 = resta(a, b)
+print("la resta es de ",resultado2)
+
